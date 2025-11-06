@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static Quad;
 
 public class Edge {
-    public int u, v;
+    public Vector3 u, v;
     public Quad q1, q2;
 
-    public Edge(int u, int v, Quad q1, Quad q2) {
+    public Edge(Vector3 u, Vector3 v, Quad q1, Quad q2) {
         this.u = u;
         this.v = v;
         this.q1 = q1;
